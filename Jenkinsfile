@@ -10,7 +10,7 @@ pipeline{
     stage('Building'){
       steps{
         echo 'Building Project _________'
-        bat 'javac test1.java
+        bat 'javac test1.java'
       }
     }
     stage('Executing'){
