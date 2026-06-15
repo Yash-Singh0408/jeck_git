@@ -5,7 +5,8 @@ pipeline {
 
         stage('Fetch Files') {
             steps {
-                git 'https://github.com/Yash-Singh0408/jeck_git.git'
+                git branch: 'main', 
+                    url: 'https://github.com/Yash-Singh0408/jeck_git.git'
             }
         }
 
